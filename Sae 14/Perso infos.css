@@ -1,0 +1,391 @@
+﻿body {
+    background-color: #52595d;
+    font-family:Arial;
+    text-align:justify;
+}
+
+header {
+    width: 90%;
+    height: 30%;
+    background-color: green;
+    font-family:Magneto;
+    font-size:1.2em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin:2%;
+}
+
+nav > a{
+    display: inline-block;
+    box-sizing: border-box;
+    width: calc(100% / 5 -30 px);
+    text-align:center;
+    margin: 0px 15px;
+    margin-bottom: 15px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+}
+
+.miseenpageglobale {
+    display: flex;
+    
+}
+
+.infoglobale {
+    width: calc(100% / 3 - 33px);
+    flex-basis: calc(100% / 3 * 2 - 20px);
+    margin-top: 20px;
+    margin-left: 10%;
+    border: 1.5px solid yellow;
+}
+
+.infoglobale:hover {
+    background-color: #8D948D;
+}
+
+.photo {
+    width: calc(100% / 4 - 60px);
+    float: right;
+    margin-top: -6%;
+    border: 1.5px solid yellow;
+}
+
+.photo img {
+    height: 350px;
+}
+
+.jsp {
+    width: calc(100% / 4 - 25px);
+    flex-basis: calc(100% / 4 * 2 - 20px);
+    margin-top: 20px;
+    margin-left: 10%;
+    border: 1.5px solid yellow;
+}
+
+.jsp:hover {
+    background-color: #8D948D;
+}
+
+.infodeta {
+    width: calc(100% / 4 - 25px);
+    flex-basis: calc(100% / 4 * 2 - 20px);
+    margin-top: 20px;
+    margin-left: 10%;
+    border: 1.5px solid yellow;
+}
+
+.infodeta:hover {
+    background-color: #8D948D;
+}
+
+.monparcours {
+    width: calc(100% / 4 - 25px);
+    flex-basis: calc(100% / 4 * 2 - 20px);
+    margin-top: 20px;
+    margin-left: 10%;
+    border: 1.5px solid yellow;
+}
+
+.monparcours:hover {
+    background-color: #8D948D;
+}
+
+.choixbut {
+    width: calc(100% / 4 - 25px);
+    flex-basis: calc(100% / 4 * 2 - 20px);
+    margin-top: 20px;
+    margin-left: 10%;
+    border: 1.5px solid yellow;
+}
+
+.choixbut:hover {
+    background-color: #8D948D;
+}
+
+.chosesfaites {
+    width: calc(100% / 3 - 30px);
+    flex-basis: calc(100% / 3 * 2 - 20px);
+    margin-top: 20px;
+    margin-left: 10%;
+    border: 1.5px solid yellow;
+}
+
+.chosesfaites:hover {
+    background-color: #8D948D;
+}
+
+.projetpro {
+    width: calc(100% / 3 - 30px);
+    flex-basis: calc(100% / 3 * 2 - 20px);
+    margin-top: 20px;
+    margin-left: 10%;
+    vertical-align: middle;
+    border: 1.5px solid yellow;
+}
+
+.projetpro:hover {
+    background-color: #8D948D;
+}
+
+.hobbies {
+    width: calc(100% / 3 - 30px);
+    flex-basis: calc(100% / 3 * 2 - 20px);
+    margin-top: 20px;
+    margin-left: 10%;
+    border: 1.5px solid yellow;
+}
+
+.hobbies:hover {
+    background-color: #8D948D;
+}
+
+footer {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius:3px 4px;
+    margin-top: 3%;
+    background-color: green;
+    margin-left: 25%;
+}
+
+h {
+    font-family: Magneto;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+}
+
+.discorde {
+    padding-top: 2%;
+    float: left;
+}
+
+.maile {
+    padding-top: 2%;
+    justify-content: center;
+}
+
+.number {
+    padding-top: 2%;
+    float: right;
+}
+
+
+/*-------------------------------------------------------*/
+
+.bloc1 {
+    width: 60%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin-top: 3%;
+    margin-left: 6%;
+    padding: 15px;
+}
+.titlepresentation {
+    
+    font-family: Magneto;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.presentation {
+
+}
+
+.bloc1 {
+    width: 60%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin-top: 3%;
+    margin-left: 6%;
+    padding: 15px;
+}
+
+.ssbloc1 {
+    width: 33%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin-top: 3%;
+    margin-left: 6%;
+    padding: 15px;
+    float:left;
+}
+
+.ssbloc2 {
+    width: 33%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin-top: 3%;
+    margin-left: 33%;
+    padding: 15px;
+
+}
+
+.ssbloc3 {
+    width: 33%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin-top: 3%;
+    margin-left: 6%;
+    padding: 15px;
+    float:left;
+}
+
+.ssbloc4 {
+    width: 33%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin-top: 3%;
+    margin-left: 6%;
+    padding: 15px;
+    float:right;
+}
+
+
+
+
+/*-----------------------------------------------------*/
+
+.gbloc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blocdef {
+    width: 33%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.blocdef:hover {
+    background-color: whitesmoke;
+}
+
+.blocexplihisto {
+    width: 33%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.blocexplihisto:hover {
+    background-color: whitesmoke;
+}
+
+.diffinfo {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 3px 4px;
+    margin-top: 5%;
+}
+
+.diffinfo:hover {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 0.2%;
+}
+
+
+
+/*---------------------------------------------------------------*/
+
+.gbloc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blocdefbat {
+    width: 33%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.blocdef:hover {
+    background-color: whitesmoke;
+}
+
+.def{
+
+}
+
+.blocprésentation {
+    width: 33%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.blocprésentation:hover {
+    background-color: whitesmoke;
+}
+
+.lesdifferentsbatiments {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 3px 4px;
+    margin-top: 5%;
+}
+
+.diffinfo:hover {
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 0.2%;
+}
+
