@@ -1,46 +1,34 @@
 ﻿body {
-    background-color: #52595d;
-    font-family:Arial;
-    text-align:justify;
+    background-color: #A9EAFE;
+    background: linear-gradient(180deg, #74d0f1, #007FFF, #22427C, #03224C);
+    background-size: 200% 300%;
+    height: 100vh;
 }
+
 
 header {
     width: 90%;
-    height: 30%;
-    background-color: green;
-    font-family:Magneto;
-    font-size:1.2em;
+    height: 15%;
+    background-color: #0055A4;
+    font-family: Magneto;
+    font-size: initial;
     text-align: center;
     border: 2px solid black;
     border-radius: 3px 4px;
-    margin:2%;
-}
-
-nav > a{
-    display: inline-block;
-    box-sizing: border-box;
-    width: calc(100% / 5 -30 px);
-    text-align:center;
-    margin: 0px 15px;
-    margin-bottom: 15px;
-}
-
-nav{
-    display:flex;
-    justify-content:space-around;
+    margin: 2%;
+    padding-top: 10px;
 }
 
 .miseenpageglobale {
     display: flex;
-    
 }
 
 .infoglobale {
-    width: calc(100% / 3 - 33px);
-    flex-basis: calc(100% / 3 * 2 - 20px);
+    width: 30%;
+    height: 15%;
     margin-top: 20px;
-    margin-left: 10%;
-    border: 1.5px solid yellow;
+    background-color: #FFFFFF;
+    padding: 2%;
 }
 
 .infoglobale:hover {
@@ -49,9 +37,6 @@ nav{
 
 .photo {
     width: calc(100% / 4 - 60px);
-    float: right;
-    margin-top: -6%;
-    border: 1.5px solid yellow;
 }
 
 .photo img {
@@ -59,23 +44,46 @@ nav{
 }
 
 .jsp {
-    width: calc(100% / 4 - 25px);
-    flex-basis: calc(100% / 4 * 2 - 20px);
+    width: 30%;
+    height: 15%;
     margin-top: 20px;
-    margin-left: 10%;
-    border: 1.5px solid yellow;
+    background-color: #FFFFFF;
+    padding:2%;
 }
 
 .jsp:hover {
     background-color: #8D948D;
 }
 
+#bot {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 30%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#mid{
+    display:flex;
+    align-items: flex-start;
+    flex-basis: 30%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#top {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 30%;
+    justify-content: space-around;
+    margin-top:10px;
+}
+
 .infodeta {
-    width: calc(100% / 4 - 25px);
-    flex-basis: calc(100% / 4 * 2 - 20px);
-    margin-top: 20px;
-    margin-left: 10%;
-    border: 1.5px solid yellow;
+    width: 28%;
+    height: 15%;
+    background-color: #FFFFFF;
+    padding: 2%;
 }
 
 .infodeta:hover {
@@ -83,11 +91,10 @@ nav{
 }
 
 .monparcours {
-    width: calc(100% / 4 - 25px);
-    flex-basis: calc(100% / 4 * 2 - 20px);
-    margin-top: 20px;
-    margin-left: 10%;
-    border: 1.5px solid yellow;
+    width: 28%;
+    height: 15%;
+    background-color: #FFFFFF;
+    padding: 2%;
 }
 
 .monparcours:hover {
@@ -95,11 +102,10 @@ nav{
 }
 
 .choixbut {
-    width: calc(100% / 4 - 25px);
-    flex-basis: calc(100% / 4 * 2 - 20px);
-    margin-top: 20px;
-    margin-left: 10%;
-    border: 1.5px solid yellow;
+    width: 28%;
+    height: 15%;
+    background-color: #FFFFFF;
+    padding: 2%;
 }
 
 .choixbut:hover {
@@ -107,11 +113,10 @@ nav{
 }
 
 .chosesfaites {
-    width: calc(100% / 3 - 30px);
-    flex-basis: calc(100% / 3 * 2 - 20px);
-    margin-top: 20px;
-    margin-left: 10%;
-    border: 1.5px solid yellow;
+    width: 28%;
+    height: 15%;
+    background-color: #FFFFFF;
+    padding: 2%;
 }
 
 .chosesfaites:hover {
@@ -119,12 +124,10 @@ nav{
 }
 
 .projetpro {
-    width: calc(100% / 3 - 30px);
-    flex-basis: calc(100% / 3 * 2 - 20px);
-    margin-top: 20px;
-    margin-left: 10%;
-    vertical-align: middle;
-    border: 1.5px solid yellow;
+    width: 28%;
+    height: 15%;
+    background-color: #FFFFFF;
+    padding: 2%;
 }
 
 .projetpro:hover {
@@ -132,199 +135,102 @@ nav{
 }
 
 .hobbies {
-    width: calc(100% / 3 - 30px);
-    flex-basis: calc(100% / 3 * 2 - 20px);
-    margin-top: 20px;
-    margin-left: 10%;
-    border: 1.5px solid yellow;
+    width: 28%;
+    height: 15%;
+    background-color: #FFFFFF;
+    padding: 2%;
 }
 
 .hobbies:hover {
     background-color: #8D948D;
 }
 
-footer {
-    width: 50%;
-    height: 30%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border: 2px solid black;
-    border-radius:3px 4px;
-    margin-top: 3%;
-    background-color: green;
-    margin-left: 25%;
+.logo {
+    margin-left:45%;
 }
 
-h {
-    font-family: Magneto;
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 1.2em;
-    color: black;
+.logo img {
+    width:150px;
 }
-
-.discorde {
-    padding-top: 2%;
-    float: left;
-}
-
-.maile {
-    padding-top: 2%;
-    justify-content: center;
-}
-
-.number {
-    padding-top: 2%;
-    float: right;
-}
-
 
 /*-------------------------------------------------------*/
 
-.bloc1 {
-    width: 60%;
-    height: 30%;
-    border: 2px solid black;
-    border-radius: 3px 4px;
-    margin-top: 3%;
-    margin-left: 6%;
-    padding: 15px;
+.header {
+    text-decoration:underline;
+    font-size: 1.6em;
 }
-.titlepresentation {
-    
-    font-family: Magneto;
-    font-size: 1.2em;
+
+nav > a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: calc(100% / 5 -30 px);
+    text-align: center;
+    margin-top:10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#topp {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 40%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#middle {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 40%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#bottom {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 40%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.titre{
+    padding-left:25%;
     text-decoration: underline;
-}
-
-.presentation {
-
-}
-
-.bloc1 {
-    width: 60%;
-    height: 30%;
-    border: 2px solid black;
-    border-radius: 3px 4px;
-    margin-top: 3%;
-    margin-left: 6%;
-    padding: 15px;
+    font-family:Calibri;
+    font-size:1.2em;
 }
 
 .ssbloc1 {
     width: 33%;
     height: 30%;
+    font-family:Calibri;
     border: 2px solid black;
     border-radius: 3px 4px;
-    margin-top: 3%;
-    margin-left: 6%;
     padding: 15px;
-    float:left;
 }
 
-.ssbloc2 {
-    width: 33%;
-    height: 30%;
-    border: 2px solid black;
-    border-radius: 3px 4px;
-    margin-top: 3%;
-    margin-left: 33%;
-    padding: 15px;
-
-}
-
-.ssbloc3 {
-    width: 33%;
-    height: 30%;
-    border: 2px solid black;
-    border-radius: 3px 4px;
-    margin-top: 3%;
-    margin-left: 6%;
-    padding: 15px;
-    float:left;
-}
-
-.ssbloc4 {
-    width: 33%;
-    height: 30%;
-    border: 2px solid black;
-    border-radius: 3px 4px;
-    margin-top: 3%;
-    margin-left: 6%;
-    padding: 15px;
-    float:right;
-}
-
-
-
-
-/*-----------------------------------------------------*/
-
-.gbloc {
+.marinehist {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-basis: 40%;
     justify-content: space-around;
+    margin-top: 10px;
 }
 
-.blocdef {
+#para {
     width: 33%;
     height: 30%;
+    font-family: Calibri;
     border: 2px solid black;
     border-radius: 3px 4px;
-    margin-top: 3%;
-    margin-left: 6%;
+    padding: 15px;
 }
 
-.blocdef:hover {
-    background-color: whitesmoke;
-}
-
-.blocexplihisto {
-    width: 33%;
-    height: 30%;
-    border: 2px solid black;
-    border-radius: 3px 4px;
-    margin-top: 3%;
-    margin-left: 6%;
-}
-
-.blocexplihisto:hover {
-    background-color: whitesmoke;
-}
-
-.diffinfo {
-    width: 70%;
-    height: 60%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border: 1px solid black;
-    border-radius: 3px 4px;
-    margin-top: 5%;
-}
-
-.diffinfo:hover {
-    background-color: whitesmoke;
-}
-
-h1 {
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-    color: black;
-    padding-left: 40%;
-    padding-right: 40%;
-    padding-top: 0.2%;
-}
-
-
-
-/*---------------------------------------------------------------*/
+/*ACCEUIL BATIMENTS DE LA MARINE NATIONALE*/
 
 .gbloc {
     display: flex;
@@ -338,34 +244,15 @@ h1 {
     height: 30%;
     border: 2px solid black;
     border-radius: 3px 4px;
-    margin-top: 3%;
-    margin-left: 6%;
 }
 
 .blocdef:hover {
     background-color: whitesmoke;
 }
 
-.def{
-
-}
-
-.blocprésentation {
-    width: 33%;
-    height: 30%;
-    border: 2px solid black;
-    border-radius: 3px 4px;
-    margin-top: 3%;
-    margin-left: 6%;
-}
-
-.blocprésentation:hover {
-    background-color: whitesmoke;
-}
-
 .lesdifferentsbatiments {
-    width: 100%;
-    height: 60%;
+    width: 80%;
+    height: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -375,17 +262,452 @@ h1 {
     margin-top: 5%;
 }
 
-.diffinfo:hover {
-    background-color: whitesmoke;
-}
-
 h2 {
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
     color: black;
-    padding-left: 40%;
-    padding-right: 40%;
-    padding-top: 0.2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0.2%;
 }
+
+
+/*AERO*/
+
+.aeronaval {
+    background-color: #A9EAFE;
+    background: linear-gradient(180deg, #74d0f1, #007FFF, #22427C, #03224C);
+    background-size: 200% 650%;
+    height: 100vh;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    font-family: Calibri;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0.2%;
+}
+
+.b10 {
+    width: 50%;
+    height: 70%;
+    display: initial;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+.bloque:hover {
+    background-color: #8D948D;
+}
+
+.bloque {
+    width: 40%;
+    height: 10%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    padding: 5px;
+    margin-top:15%;
+    margin-left: 30%;
+}
+
+#mef {
+    text-align:justify;
+    font-family: Calibri;
+}
+
+.photopa {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top:15%;
+}
+
+.photopa img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photoph {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photoph img {
+     height: 500px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.photora {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photora img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photoe2c {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photoe2c img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photope {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photope img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*FAN*/
+
+.surfaciques {
+    background-color: #A9EAFE;
+    background: linear-gradient(180deg, #74d0f1, #007FFF, #22427C, #03224C);
+    background-size: 200% 1000%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.photofremm {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photofremm img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photofremmda {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photofremmda img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photofda {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photofda img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photofdi {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photofdi img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photoflf {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photoflf img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photofasm {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photofasm img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photofaa {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photofaa img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photofs {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photofs img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*FOST*/
+
+.bloque1 {
+    width: 50%;
+    height: 25%;
+    border: 2px solid black;
+    border-radius: 3px 4px;
+    padding: 5px;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.sousmarins {
+    background-color: #A9EAFE;
+    background: linear-gradient(180deg, #74d0f1, #007FFF, #22427C, #03224C);
+    background-size: 200% 350%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.photosna {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photosna img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photosnle {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photosnle img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*SOUTIENS*/
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    font-family: Calibri;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+}
+
+.ravicmt {
+    background-color: #A9EAFE;
+    background: linear-gradient(180deg, #74d0f1, #007FFF, #22427C, #03224C);
+    background-size: 200% 300%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.photocassiopee {
+    display: flex;
+    align-items: center;
+    max-height: 300px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.photocassiopee img {
+    max-height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photosomme {
+    display: flex;
+    align-items: center;
+    max-height: 300px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.photosomme img {
+    max-height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*SCIENTIFIQUES*/
+
+.scientifiques {
+    background-color: #A9EAFE;
+    background: linear-gradient(180deg, #74d0f1, #007FFF, #22427C, #03224C);
+    background-size: 200% 800%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.photobem {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photobem img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photobh {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photobh img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photobho {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photobho img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photobsp {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photobsp img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photoddl {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photoddl img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photolpqp {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.photolpqp img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
